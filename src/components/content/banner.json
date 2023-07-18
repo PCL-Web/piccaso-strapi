@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_content_banners",
+  "info": {
+    "displayName": "Banner",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "ShowPeople": {
+      "type": "boolean",
+      "default": false
+    },
+    "NumberOfPeople": {
+      "type": "integer"
+    },
+    "Heading": {
+      "type": "text"
+    },
+    "LoginButton": {
+      "type": "string",
+      "default": "Login"
+    },
+    "RegisterButton": {
+      "type": "string",
+      "default": "Register"
+    },
+    "RegisterButtonLink": {
+      "type": "text"
+    },
+    "LoginButtonLink": {
+      "type": "text"
+    },
+    "SignUpButton": {
+      "type": "string"
+    },
+    "SignUpButtonLink": {
+      "type": "text"
+    }
+  }
+}

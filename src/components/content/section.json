@@ -1,0 +1,73 @@
+{
+  "collectionName": "components_content_sections",
+  "info": {
+    "displayName": "Section",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Template": {
+      "type": "enumeration",
+      "enum": [
+        "One column",
+        "Two columns"
+      ]
+    },
+    "Extra": {
+      "type": "enumeration",
+      "enum": [
+        "None",
+        "People",
+        "Areas"
+      ],
+      "default": "None"
+    },
+    "Order": {
+      "type": "integer",
+      "min": 0,
+      "max": 20
+    },
+    "Media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Heading": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "Content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "Strapline": {
+      "type": "text"
+    },
+    "Content2": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "Date": {
+      "type": "date"
+    }
+  }
+}

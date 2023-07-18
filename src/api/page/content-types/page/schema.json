@@ -18,6 +18,14 @@
     "Slug": {
       "type": "uid",
       "targetField": "Name"
+    },
+    "Body": {
+      "type": "dynamiczone",
+      "components": [
+        "content.section",
+        "content.banner",
+        "content.people"
+      ]
     }
   }
 }

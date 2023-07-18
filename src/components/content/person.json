@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_content_person",
+  "info": {
+    "displayName": "Person",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "text",
+      "unique": false
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Slug": {
+      "type": "string",
+      "private": true
+    }
+  }
+}
