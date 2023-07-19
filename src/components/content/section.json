@@ -68,6 +68,9 @@
     },
     "Date": {
       "type": "date"
+    },
+    "Link": {
+      "type": "text"
     }
   }
 }

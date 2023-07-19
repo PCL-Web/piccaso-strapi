@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_content_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "cast"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Keywords": {
+      "type": "text"
+    }
+  }
+}

@@ -26,6 +26,11 @@
         "content.banner",
         "content.people"
       ]
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.seo"
     }
   }
 }
