@@ -21,8 +21,10 @@
       "type": "enumeration",
       "enum": [
         "None",
+        "Areas",
+        "Form",
         "People",
-        "Areas"
+        "Wide"
       ],
       "default": "None"
     },
@@ -71,6 +73,9 @@
     },
     "Link": {
       "type": "text"
+    },
+    "LinkText": {
+      "type": "string"
     }
   }
 }

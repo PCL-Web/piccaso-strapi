@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_content_hub_spots",
+  "info": {
+    "displayName": "HubSpot",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Region": {
+      "type": "string"
+    },
+    "PortalId": {
+      "type": "string"
+    },
+    "FormId": {
+      "type": "string"
+    },
+    "SubmitText": {
+      "type": "text"
+    }
+  }
+}
