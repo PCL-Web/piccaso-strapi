@@ -68,13 +68,13 @@
       },
       "customField": "plugin::ckeditor.CKEditor"
     },
-    "Date": {
-      "type": "date"
-    },
     "Link": {
       "type": "text"
     },
     "LinkText": {
+      "type": "string"
+    },
+    "Date": {
       "type": "string"
     }
   }
