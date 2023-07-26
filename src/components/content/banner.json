@@ -48,6 +48,10 @@
     },
     "SignUpButtonLink": {
       "type": "text"
+    },
+    "ShowFireworks": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
