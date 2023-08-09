@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_content_cards",
+  "info": {
+    "displayName": "Card",
+    "icon": "server"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Media": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonLink": {
+      "type": "string"
+    }
+  }
+}

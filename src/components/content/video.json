@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_content_videos",
+  "info": {
+    "displayName": "Video",
+    "icon": "monitor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "Width": {
+      "type": "string"
+    },
+    "Height": {
+      "type": "string"
+    },
+    "Platform": {
+      "type": "enumeration",
+      "enum": [
+        "File",
+        "Vimeo",
+        "YouTube"
+      ]
+    },
+    "StreamingVideoID": {
+      "type": "string"
+    }
+  }
+}

@@ -18,6 +18,26 @@
     "Slug": {
       "type": "uid",
       "targetField": "Name"
+    },
+    "Body": {
+      "type": "dynamiczone",
+      "components": [
+        "content.section",
+        "content.banner",
+        "content.people",
+        "content.card-block",
+        "content.video"
+      ]
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.seo"
+    },
+    "Form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.hub-spot"
     }
   }
 }
