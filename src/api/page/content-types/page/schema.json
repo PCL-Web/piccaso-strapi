@@ -24,7 +24,9 @@
       "components": [
         "content.section",
         "content.banner",
-        "content.people"
+        "content.people",
+        "content.card-block",
+        "content.video"
       ]
     },
     "SEO": {

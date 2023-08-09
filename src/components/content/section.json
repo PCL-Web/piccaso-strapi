@@ -22,8 +22,10 @@
       "enum": [
         "None",
         "Areas",
+        "Card block",
         "Form",
         "People",
+        "Video",
         "Wide"
       ],
       "default": "None"

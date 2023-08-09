@@ -2,7 +2,7 @@
   "name": "strapi",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Strapi CMS for PICCASO",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -16,11 +16,12 @@
     "@strapi/provider-upload-cloudinary": "4.11.5",
     "@strapi/strapi": "4.11.5",
     "env": "^0.0.2",
+    "mysql": "^2.18.1",
     "pg": "8.11.1",
     "strapi-plugin-navigation": "^2.2.11"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "John Watson - Privacy Culture Ltd"
   },
   "strapi": {
     "uuid": "35d7a084-3088-4d0b-869e-f503693ee8e5"

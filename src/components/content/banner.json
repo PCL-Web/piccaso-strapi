@@ -52,6 +52,9 @@
     "ShowFireworks": {
       "type": "boolean",
       "default": false
+    },
+    "SubHeading": {
+      "type": "text"
     }
   }
 }

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_card_blocks",
+  "info": {
+    "displayName": "CardBlock",
+    "icon": "stack"
+  },
+  "options": {},
+  "attributes": {
+    "Card": {
+      "displayName": "Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "content.card"
+    }
+  }
+}
