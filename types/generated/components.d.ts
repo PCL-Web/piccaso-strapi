@@ -139,6 +139,7 @@ export interface ContentSection extends Struct.ComponentSchema {
         },
         number
       >;
+    Strapline: Schema.Attribute.Text;
     Template: Schema.Attribute.Enumeration<['One column', 'Two columns']>;
   };
 }

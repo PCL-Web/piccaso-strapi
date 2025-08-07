@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "Strapi CMS for PICCASO",
 "scripts": {
-     "start": "HTTPS=true SSL_CRT_FILE=./certs/localhost.pem SSL_KEY_FILE=./certs/localhost-key.pem react-scripts strapi start",
+     "start": "strapi start",
     "develop": "strapi develop",
     "build": "strapi build",
     "strapi": "strapi"
