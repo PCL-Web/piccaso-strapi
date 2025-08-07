@@ -86,6 +86,7 @@ export interface ContentPerson extends Struct.ComponentSchema {
   };
   attributes: {
     Description: Schema.Attribute.Text;
+    LinkedInProfile: Schema.Attribute.String;
     Name: Schema.Attribute.Text;
     Photo: Schema.Attribute.Media<'images'>;
     Slug: Schema.Attribute.String & Schema.Attribute.Private;

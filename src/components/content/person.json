@@ -25,6 +25,9 @@
     "Slug": {
       "type": "string",
       "private": true
+    },
+    "LinkedInProfile": {
+      "type": "string"
     }
   }
 }

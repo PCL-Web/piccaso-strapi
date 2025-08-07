@@ -64,6 +64,9 @@
         "preset": "defaultHtml"
       }
     },
+    "Strapline": {
+      "type": "text"
+    },
     "Link": {
       "type": "text"
     },
