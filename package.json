@@ -10,15 +10,18 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
-    "@strapi/plugin-i18n": "4.12.1",
-    "@strapi/plugin-users-permissions": "4.12.1",
-    "@strapi/provider-upload-cloudinary": "4.12.1",
-    "@strapi/strapi": "4.12.1",
+    "@_sh/strapi-plugin-ckeditor": "6.0.2",
+    "@strapi/plugin-users-permissions": "5.21.0",
+    "@strapi/provider-upload-cloudinary": "5.21.0",
+    "@strapi/strapi": "5.21.0",
     "env": "^0.0.2",
     "mysql": "^2.18.1",
     "pg": "8.11.1",
-    "strapi-plugin-navigation": "^2.2.11"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1",
+    "strapi-plugin-navigation": "^3.2.0",
+    "styled-components": "^6.1.19"
   },
   "author": {
     "name": "John Watson - Privacy Culture Ltd"
@@ -30,5 +33,8 @@
     "node": ">=16.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.25.8"
+  }
 }

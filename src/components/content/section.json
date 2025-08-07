@@ -19,6 +19,7 @@
     },
     "Extra": {
       "type": "enumeration",
+      "default": "None",
       "enum": [
         "None",
         "Areas",
@@ -27,8 +28,7 @@
         "People",
         "Video",
         "Wide"
-      ],
-      "default": "None"
+      ]
     },
     "Order": {
       "type": "integer",
@@ -44,31 +44,25 @@
       ]
     },
     "Heading": {
-      "type": "customField",
+       "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
       "options": {
-        "output": "HTML",
-        "preset": "light"
-      },
-      "customField": "plugin::ckeditor.CKEditor"
+        "preset": "defaultHtml"
+      }
     },
     "Content": {
-      "type": "customField",
+       "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
       "options": {
-        "output": "HTML",
-        "preset": "rich"
-      },
-      "customField": "plugin::ckeditor.CKEditor"
-    },
-    "Strapline": {
-      "type": "text"
+        "preset": "defaultHtml"
+      }
     },
     "Content2": {
-      "type": "customField",
+       "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
       "options": {
-        "output": "HTML",
-        "preset": "rich"
-      },
-      "customField": "plugin::ckeditor.CKEditor"
+        "preset": "defaultHtml"
+      }
     },
     "Link": {
       "type": "text"
