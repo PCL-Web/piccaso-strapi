@@ -34,7 +34,22 @@ export interface ContentCard extends Struct.ComponentSchema {
   attributes: {
     ButtonLink: Schema.Attribute.String;
     ButtonText: Schema.Attribute.String;
-    Content: Schema.Attribute.RichText;
+    Content: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    EventDate: Schema.Attribute.Date;
+    EventTime: Schema.Attribute.String;
+    Excerpt: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
     Media: Schema.Attribute.Media<'images' | 'videos'>;
     Name: Schema.Attribute.String;
   };

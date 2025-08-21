@@ -10,15 +10,32 @@
       "type": "string"
     },
     "Content": {
-      "type": "richtext"
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "Excerpt": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
     },
     "Media": {
+      "type": "media",
+      "multiple": false,
       "allowedTypes": [
         "images",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "EventDate": {
+      "type": "date"
+    },
+    "EventTime": {
+      "type": "string"
     },
     "ButtonText": {
       "type": "string"
