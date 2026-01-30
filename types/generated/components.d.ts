@@ -172,6 +172,26 @@ export interface ContentSeo extends Struct.ComponentSchema {
   };
 }
 
+export interface ContentSignupForm extends Struct.ComponentSchema {
+  collectionName: 'components_content_signup_forms';
+  info: {
+    displayName: 'SignupForm';
+  };
+  attributes: {
+    SubmitButtonText: Schema.Attribute.String;
+    Subtitle: Schema.Attribute.Text;
+    SuccessMessage: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    SuccessTitle: Schema.Attribute.String;
+    Title: Schema.Attribute.String;
+  };
+}
+
 export interface ContentVideo extends Struct.ComponentSchema {
   collectionName: 'components_content_videos';
   info: {
@@ -199,6 +219,7 @@ declare module '@strapi/strapi' {
       'content.person': ContentPerson;
       'content.section': ContentSection;
       'content.seo': ContentSeo;
+      'content.signup-form': ContentSignupForm;
       'content.video': ContentVideo;
     }
   }

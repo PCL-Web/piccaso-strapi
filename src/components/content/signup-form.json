@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_content_signup_forms",
+  "info": {
+    "displayName": "SignupForm"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "SuccessTitle": {
+      "type": "string"
+    },
+    "SuccessMessage": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "SubmitButtonText": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

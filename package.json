@@ -3,24 +3,24 @@
   "private": true,
   "version": "0.1.0",
   "description": "Strapi CMS for PICCASO",
-"scripts": {
-     "start": "strapi start",
+  "scripts": {
+    "start": "strapi start",
     "develop": "strapi develop",
     "build": "strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "6.0.2",
-    "@strapi/plugin-users-permissions": "5.21.0",
-    "@strapi/provider-upload-cloudinary": "5.21.0",
-    "@strapi/strapi": "5.21.0",
+    "@strapi/plugin-users-permissions": "5.34.0",
+    "@strapi/provider-upload-cloudinary": "5.34.0",
+    "@strapi/strapi": "5.34.0",
     "env": "^0.0.2",
     "mysql": "^2.18.1",
     "pg": "8.11.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.30.1",
-    "strapi-plugin-navigation": "^3.2.0",
+    "strapi-plugin-navigation": "3.1",
     "styled-components": "^6.1.19"
   },
   "author": {

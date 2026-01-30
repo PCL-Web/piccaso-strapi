@@ -5,7 +5,7 @@ module.exports = ({ env }) => ({
       },
     },
     navigation: {
-      enabled: true
+      enabled: true,
     },
     upload: {
       config: {
