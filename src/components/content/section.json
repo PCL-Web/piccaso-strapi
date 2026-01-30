@@ -26,6 +26,7 @@
         "Card block",
         "Form",
         "People",
+        "SignupForm",
         "Video",
         "Wide"
       ]
@@ -44,21 +45,21 @@
       ]
     },
     "Heading": {
-       "type": "customField",
+      "type": "customField",
       "customField": "plugin::ckeditor5.CKEditor",
       "options": {
         "preset": "defaultHtml"
       }
     },
     "Content": {
-       "type": "customField",
+      "type": "customField",
       "customField": "plugin::ckeditor5.CKEditor",
       "options": {
         "preset": "defaultHtml"
       }
     },
     "Content2": {
-       "type": "customField",
+      "type": "customField",
       "customField": "plugin::ckeditor5.CKEditor",
       "options": {
         "preset": "defaultHtml"

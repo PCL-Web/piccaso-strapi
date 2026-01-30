@@ -132,7 +132,16 @@ export interface ContentSection extends Struct.ComponentSchema {
       >;
     Date: Schema.Attribute.String;
     Extra: Schema.Attribute.Enumeration<
-      ['None', 'Areas', 'Card block', 'Form', 'People', 'Video', 'Wide']
+      [
+        'None',
+        'Areas',
+        'Card block',
+        'Form',
+        'People',
+        'SignupForm',
+        'Video',
+        'Wide',
+      ]
     > &
       Schema.Attribute.DefaultTo<'None'>;
     Heading: Schema.Attribute.RichText &
