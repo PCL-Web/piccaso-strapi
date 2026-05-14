@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sponsor_logos",
+  "info": {
+    "singularName": "sponsor-logo",
+    "pluralName": "sponsor-logos",
+    "displayName": "Sponsor Logos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "altText": {
+      "type": "string"
+    },
+    "websiteUrl": {
+      "type": "string"
+    },
+    "sortOrder": {
+      "type": "integer"
+    }
+  }
+}
