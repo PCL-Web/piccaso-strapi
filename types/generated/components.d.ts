@@ -139,6 +139,7 @@ export interface ContentSection extends Struct.ComponentSchema {
         'Form',
         'People',
         'SignupForm',
+        'Sponsor Logos',
         'Video',
         'Wide',
       ]
@@ -201,6 +202,27 @@ export interface ContentSignupForm extends Struct.ComponentSchema {
   };
 }
 
+export interface ContentSponsorLogos extends Struct.ComponentSchema {
+  collectionName: 'components_content_sponsor_logos';
+  info: {
+    description: 'Displays sponsor logos in two rows \u2014 Main Sponsor on top, Secondary Sponsor on bottom';
+    displayName: 'SponsorLogos';
+    icon: 'picture';
+  };
+  attributes: {
+    Heading: Schema.Attribute.String;
+    MainSponsor: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::sponsor-logo.sponsor-logo'
+    >;
+    SecondarySponsor: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::sponsor-logo.sponsor-logo'
+    >;
+    Strapline: Schema.Attribute.Text;
+  };
+}
+
 export interface ContentVideo extends Struct.ComponentSchema {
   collectionName: 'components_content_videos';
   info: {
@@ -229,6 +251,7 @@ declare module '@strapi/strapi' {
       'content.section': ContentSection;
       'content.seo': ContentSeo;
       'content.signup-form': ContentSignupForm;
+      'content.sponsor-logos': ContentSponsorLogos;
       'content.video': ContentVideo;
     }
   }

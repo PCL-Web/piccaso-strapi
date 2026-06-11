@@ -27,7 +27,8 @@
         "content.people",
         "content.card-block",
         "content.video",
-        "content.signup-form"
+        "content.signup-form",
+        "content.sponsor-logos"
       ]
     },
     "SEO": {
