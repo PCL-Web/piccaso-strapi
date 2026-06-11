@@ -534,10 +534,6 @@ export interface ApiSponsorLogoSponsorLogo extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     logo: Schema.Attribute.Media<'images'>;
     publishedAt: Schema.Attribute.DateTime;
-    sortOrder: Schema.Attribute.Integer;
-    tier: Schema.Attribute.Enumeration<['Main Sponsor', 'Secondary Sponsor']> &
-      Schema.Attribute.Required &
-      Schema.Attribute.DefaultTo<'Secondary Sponsor'>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
