@@ -26,6 +26,15 @@
     },
     "sortOrder": {
       "type": "integer"
+    },
+    "tier": {
+      "type": "enumeration",
+      "enum": [
+        "Main Sponsor",
+        "Secondary Sponsor"
+      ],
+      "required": true,
+      "default": "Secondary Sponsor"
     }
   }
 }

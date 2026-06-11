@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_content_sponsor_logos",
+  "info": {
+    "displayName": "SponsorLogos",
+    "icon": "picture",
+    "description": "Displays sponsor logos in two rows — Main Sponsor on top, Secondary Sponsor on bottom"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Strapline": {
+      "type": "text"
+    },
+    "MainSponsor": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sponsor-logo.sponsor-logo"
+    },
+    "SecondarySponsor": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sponsor-logo.sponsor-logo"
+    }
+  }
+}
